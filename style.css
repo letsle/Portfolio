@@ -1,0 +1,226 @@
+*{
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.box-main{
+    background: no-repeat url(./src/img/background.png);
+    background-color: #191919;
+    background-position:80%;
+    height: 100vh;
+    width: 100%;
+
+}
+
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+
+.portfolio{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.portfolio span{
+    color:#199e1f;
+}
+
+li{
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 25px;
+    list-style: none;
+    margin-right:30px;
+}
+
+
+li :hover{
+    color: #199e1f;
+    transition: 0.5s;
+}
+
+.link-menu{
+    color: white;
+    text-decoration: none;
+}
+
+.my-name{
+    left: 10%;
+    position: absolute;
+    top: 50%;
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+}
+
+h1 span{
+    color:#199e1f;
+}
+
+.my-name h3{
+    color: white;
+    font-size: 25px;
+}
+
+section{
+    align-items: center;
+    background-color: black;
+    display: flex;
+    padding: 60px 15%;
+}
+
+section img{
+    border-radius: 100%;
+    border: 2px solid #199e1f;
+    height: 300px;
+    margin-right: 40px;
+    width: 30%;
+}
+
+section div h2{
+    color: white;
+    font-size: 70px;
+}
+
+section div p{
+    color: #ecd5dd;
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+section div button{
+    background-color:#199e1f;
+    border: none;
+    border-radius: 26px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    padding: 3px;
+    width: 180px;
+}
+
+section div button:hover {
+    background-color: rgb(0, 0, 0);
+    border: 3px#199e1f solid;
+    transition: 0.5s;
+      
+}
+
+.projects{
+    background-color: #191919;
+    padding: 50px;
+}
+
+.projects h2 {
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    text-align: center;
+}
+
+.card {
+    background-color: #000000;
+    border-radius: 20px;
+    height: 365px;
+    padding: 20px 35px;
+    text-align: center;
+    width: 335px;
+}
+
+.card img {
+    height: 100px;
+}
+
+.card h5 {
+    color: white;
+    font-size: 24px;
+}
+
+.card p {
+    color:#c0e7c2;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card a {
+    background-color: #199e1f;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.card a:hover {
+    background-color: transparent;
+    border: 2px solid #199e1f;
+}
+
+.card-projects {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+footer {
+    align-items: center;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 120px;
+    padding-top: 100px;
+}
+
+footer h5 {
+    color: white;
+    font-size: 30px;
+}
+
+footer p {
+    color: white;
+    font-size: 18px;
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.social img {
+    border-radius: 50%;
+    height: 24px;
+}
+
+.social a {
+    align-items: center;
+    background-color:#199e2081;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    width: 50px;
+}
+
+.social a:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
