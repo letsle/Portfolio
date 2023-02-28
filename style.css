@@ -224,3 +224,29 @@ footer p {
     transform: scale(1.3);
     transition: 0.5s;
 }
+
+/* Responsividade */
+
+@media screen and (max-width:768px) {
+
+
+  h2.portfolio{
+    padding: 10px;
+  }
+
+  nav{
+    flex-direction: column;
+  }
+   
+  ul{
+    justify-content: space-between;
+    padding: 90px;
+
+  }
+
+  .card-projects {
+    display: block;
+    padding-right: 120px;
+}
+
+}
